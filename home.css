@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg3.jpg);
+    background-size: cover;
+    width: 100%;
+    flex: auto;
+
+}
+.name{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:black;
+    background:   rgba(214, 49, 49, 0.438);
+    margin-top: 25px;
+    width: 25%;
+    text-align: center;
+    margin-left: 40%;
+    border: solid 2px black;
+    cursor: pointer;
+}
+.usn{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    background:   rgba(214, 49, 49, 0.438);
+    margin-top: 25px;
+    width: 25%;
+    text-align: center;
+    margin-left: 40%;
+    border: solid 2px black;
+    cursor: pointer;
+}
+.sem{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    background:  rgba(214, 49, 49, 0.438);
+    margin-top: 25px;
+    width: 25%;
+    text-align: center;
+    margin-left: 40%;
+    border: solid 2px black;
+    cursor: pointer;
+}
+.sub{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    width: 25%;
+    margin-left: 40%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background:  rgba(214, 49, 49, 0.438);
+    
+}
+.btn1{
+    font-size: 25px;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 45%;
+    border: 2px solid black;
+
+}

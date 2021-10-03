@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="form.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <div class="form" >
+        <div class="ele" id="invoice">
+            <input type="text" class="name" placeholder="Enter Your Full Name"required><br>
+            <input type="text" class="usn" placeholder="Enter Your USN"required><br>
+            <input type="text" class="sem" placeholder="Enter College Name "required><br>
+            <input type="text" class="sem" placeholder="Enter Your Semester"required><br>
+         <div class="sub">
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            <input type="text" placeholder="Subject Name With Code"required>
+            <input type="text" placeholder="Enter Your Marks"><br>
+            </div>
+        </div>
+    </div>
+    <button class="btn1"  onclick="btnclicked()">Save</button>
+    <script>
+        function btnclicked(){
+            document.location.href = "form.php";
+        }
+    </script>
+    <button onclick="generatePDF()" class="btn1">Download</button>
+    
+</body>
+</html>
